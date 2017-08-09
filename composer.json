@@ -1,0 +1,24 @@
+{
+    "name": "kylemass/haveibeenpwned",
+    "description": "A plugin to check if your users passwords have been pwned by a known data breach via https://haveibeenpwned.com",
+    "keywords": ["data breach","haveibeenpwned","passwords","account"],
+    "type": "library",
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "~6.0",
+        "laravel/framework": "5.4.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Ellis",
+            "email": "ky.ellis83@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
