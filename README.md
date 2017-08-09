@@ -8,7 +8,7 @@
 
 Run:
 ```$xslt
-composer require kylemass/haveibeenpwned:dev-develop
+composer require kylemass/haveibeenpwned:dev-master
 ```
 Add the provider to your config file
 ```php
